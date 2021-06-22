@@ -136,147 +136,147 @@ function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'8');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'8');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton3.按键9
 function pushbutton3_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'9');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'9');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton4.按键0
 function pushbutton4_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'0');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'0');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton5.按键AE
 function pushbutton5_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = get(handles.edit2,'String');
-set(handles.edit1,'String','');
-set(handles.edit2,'String','');
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = get(handles.edit2,'String');
+    set(handles.edit1,'String','');
+    set(handles.edit2,'String','');
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton6.按键4
 function pushbutton6_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'4');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'4');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton7.按键5
 function pushbutton7_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'5');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'5');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 
 % --- Executes on button press in pushbutton8.按键sin
 function pushbutton8_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'zsin');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'zsin');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton9.按键6
 function pushbutton9_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'6');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'6');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton10.按键cos
 function pushbutton10_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'cos');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'cos');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton11.按键1
 function pushbutton11_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'1');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'1');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 
 % --- Executes on button press in pushbutton12.按键2
 function pushbutton12_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'2');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'2');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton13.按键3
 function pushbutton13_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'3');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'3');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton14.按键（
 function pushbutton14_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'(');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'(');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton15.按键）
 function pushbutton15_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,')');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,')');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton16.按键退出
 function pushbutton16_Callback(hObject, eventdata, handles)
-close(gcf);
+    close(gcf);
 
 % --- Executes on button press in pushbutton17.按键back
 function pushbutton17_Callback(hObject, eventdata, handles)
-textString=get(handles.edit1,'String');
-as=char(textString);
-n=length(textString);
-textString=as(1:n-1);
-set(handles.edit1,'String',textString)
-guidata(hObject, handles);
+    textString=get(handles.edit1,'String');
+    as=char(textString);
+    n=length(textString);
+    textString=as(1:n-1);
+    set(handles.edit1,'String',textString)
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton18.按键.
 function pushbutton18_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'.');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'.');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 
 % --- Executes on button press in pushbutton19.按键计算
 function pushbutton19_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-aa = eval(textString);
-set(handles.edit2,'String',aa);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    aa = eval(textString);
+    set(handles.edit2,'String',aa);
+    guidata(hObject, handles);
 
 
 % --- Executes on button press in pushbutton20.按键arcsin
 function pushbutton20_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'arcsin');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'arcsin');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 % --- Executes on button press in pushbutton21.按键arccos
 function pushbutton21_Callback(hObject, eventdata, handles)
-textString = get(handles.edit1,'String');
-textString = strcat(textString,'arccos');
-set(handles.edit1,'String',textString);
-guidata(hObject, handles);
+    textString = get(handles.edit1,'String');
+    textString = strcat(textString,'arccos');
+    set(handles.edit1,'String',textString);
+    guidata(hObject, handles);
 
 %sin函数
 function result=zsin(angle)
